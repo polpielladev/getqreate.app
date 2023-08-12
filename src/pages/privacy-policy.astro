@@ -1,0 +1,80 @@
+---
+import "../styles/main.css";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>QReate · Edit QR codes on macOS</title>
+  </head>
+  <body
+    class="max-w-4xl mx-auto h-screen px-4 dark:bg-gray-900 dark:text-white"
+  >
+    <header class="py-12">
+      <nav class="flex items-center justify-between">
+        <a href="/" class="hover:scale-125 transition-transform">
+          <img src="/qreate-logo.webp" class="w-8 aspect-square" />
+        </a>
+        <div class="flex items-center gap-4">
+          <a href="/privacy-policy" class="hover:underline">Privacy policy</a>
+          <a
+            href="https://x.com/polpielladev"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:underline">Twitter</a
+          >
+          <a
+            href="https://iosdev.space/@polpielladev"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:underline">Mastodon</a
+          >
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="flex flex-col max-w-xl gap-8">
+        <h1
+          class="block text-6xl font-title text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-lime-600"
+        >
+          Privacy Policy
+        </h1>
+        <p>
+          I, Pol Piella Abadia, built the QReate app as a commercial app. The
+          service is provided <strong>by me as an individual</strong> and is intended
+          for use as is.
+        </p>
+        <p>
+          This page is used to <strong
+            >inform visitors regarding my policies</strong
+          > with the collection, use, and disclosure of Personal Information if anyone
+          decided to use my app QReate.
+        </p>
+        <p>
+          If you choose to use QReate, then <strong
+            >you agree to the collection and use of information in relation to
+            the policy below</strong
+          >:
+        </p>
+        <ul class="list-disc space-y-3">
+          <li>
+            QReate does <strong>NOT</strong> collect analytics or sell your data
+            to third parties.
+          </li>
+          <li>
+            QReate does <strong>NOT</strong> show ads or track you across apps and
+            websites.
+          </li>
+          <li>
+            QReate does <strong>NOT</strong> store any personal data on your device.
+            It only stores QR code information.
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
