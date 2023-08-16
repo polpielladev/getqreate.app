@@ -30,9 +30,15 @@
   },
   {
     "id": "6",
-    "title": "Initial Launch",
-    "status": "finished",
-    "description": "Release v1 to the public.",
+    "title": "AI-generated usable QR codes",
+    "status": "idea",
+    "description": "Use stable diffusion to generate fully usable QR codes.",
+    "isFinished": true
+  },
+  {
+    "id": "7",
+    "title": "Automatically set background/foreground colors from image",
+    "status": "idea",
     "isFinished": true
   }
 ]
