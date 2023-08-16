@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "iOS App",
+    "status": "planned",
+    "description": "Create and share QR codes form an iOS application."
+  },
+  {
+    "id": "2",
+    "title": "Customise QR codes with different shapes",
+    "status": "planned"
+  },
+  {
+    "id": "3",
+    "title": "iCloud Sync",
+    "status": "planned",
+    "description": "Share your QR codes across all your devices."
+  },
+  {
+    "id": "4",
+    "title": "Templates",
+    "status": "planned",
+    "description": "Add templates to create QR codes such as WIFI, VCards, etc."
+  },
+  {
+    "id": "5",
+    "title": "Tracking",
+    "status": "planned",
+    "description": "Check how many people have seen your QR code."
+  },
+  {
+    "id": "6",
+    "title": "Initial Launch",
+    "status": "finished",
+    "description": "Release v1 to the public.",
+    "isFinished": true
+  }
+]
