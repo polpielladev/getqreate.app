@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Bricolage Grotesque";
-  src: url("/BricolageGrotesque-Bold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: bold;
+  font-family: 'Satoshi';
+  src: url('/fonts/satoshi.woff2') format('woff2');
+  font-weight: medium;
+  font-style: medium;
   font-display: swap;
 }

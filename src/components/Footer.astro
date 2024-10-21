@@ -1,0 +1,40 @@
+---
+import FooterSection from "@components/FooterSection.astro";
+---
+
+<footer
+    class="py-8 items-start px-4 flex flex-col md:items-center"
+    role="contentinfo"
+>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <FooterSection
+            title="Support"
+            items={[
+                { href: "https://tally.so/r/npPeb1", text: "Submit Feedback" },
+            ]}
+        />
+
+        <FooterSection
+            title="Press"
+            items={[
+                { href: "mailto:pol@appdiggershq.com", text: "Contact Us" },
+            ]}
+        />
+
+        <FooterSection
+            title="Membership"
+            items={[
+                { href: "/privacy", text: "Privacy Policy" },
+                { href: "/terms", text: "Terms & Conditions" },
+            ]}
+        />
+    </div>
+
+    <a
+        href="https://appdiggershq.com"
+        class="text-gray-800 hover:text-blue-600 pt-12 font-medium"
+        target="_blank"
+    >
+        &copy; 2024 App Diggers S.L.U.
+    </a>
+</footer>

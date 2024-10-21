@@ -1,0 +1,26 @@
+---
+export interface Props {
+    title: string;
+    items: Array<{ href: string; text: string }>;
+}
+
+const { title, items } = Astro.props;
+---
+
+<div>
+    <h3 class="text-xl mb-4 md:text-md font-bold">{title}</h3>
+    <ul class="space-y-2 text-md">
+        {
+            items.map((item) => (
+                <li>
+                    <a
+                        href={item.href}
+                        class="font-medium text-gray-600 hover:text-gray-400"
+                    >
+                        {item.text}
+                    </a>
+                </li>
+            ))
+        }
+    </ul>
+</div>
